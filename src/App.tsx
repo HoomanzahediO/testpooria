@@ -4,19 +4,10 @@ import React from 'react';
 
 function App() {
 
-  console.log("hellasdadasdasdasdadassdasdasdasdo!");
-  console.log("hellasdadasdasdasdadassdasdasdasdo!");
-  console.log("hellasdadasdasdasdadassdasdasdasdo!");
-  console.log("hellasdadasdasdasdadassdasdasdasdo!");
-  console.log("hellasdadasdasdasdadassdasdasdasdo!");
-  console.log("hellasdadasdasdasdadassdasdasdasdo!");
-
   return (
     <>
       <Box>
-        <Box>
 
-        </Box>
       </Box>
     </>
   );
