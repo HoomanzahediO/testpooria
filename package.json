@@ -18,8 +18,16 @@
   "husky": {
     "hooks": {
       "pre-push": "yarn lint && yarn typecheck",
-      "pre-commit": "yarn lint && yarn typecheck"
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx}": [
+      "eslint --quiet --fix"
+    ],
+    "*.{json,md,html}": [
+      "prettier --write"
+    ]
   },
   "dependencies": {
     "@date-io/date-fns": "^2.10.11",
