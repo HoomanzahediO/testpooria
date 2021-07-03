@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Box>
-        aaaaaaaaaaaaaaaaaaa
+        aaaaaaaaaaaaaa
       </Box>
     </>
   );
